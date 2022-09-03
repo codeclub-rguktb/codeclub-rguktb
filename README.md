@@ -11,7 +11,7 @@
 ### 
 * 🌍  RGUKT-BASAR 
 * 🖥️  Our [Website](http://udaykirancodes.github.io/portfolio/)
-* ✉️  Contact ue at [codingclub@rgukt.ac.in](mailto:codingclub@rgukt.ac.in)
+* ✉️  Contact us at [codingclub@rgukt.ac.in](mailto:codingclub@rgukt.ac.in)
 
 
 ## 🔗 Links
