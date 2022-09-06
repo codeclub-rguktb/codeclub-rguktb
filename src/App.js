@@ -15,7 +15,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/guidance" element={<GAR />} />
         </Routes>
