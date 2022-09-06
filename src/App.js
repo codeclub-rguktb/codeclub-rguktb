@@ -5,6 +5,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
 import GAR from "./pages/GuidanceAndResourses"
+import COT from "./pages/ContestOrganising"
+
+import Extra from "./pages/Extra";
 
 const App = () => {
   return (
@@ -16,6 +19,8 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/guidance" element={<GAR />} />
+          <Route path="/contest" element={<COT />} />
+          <Route path="/extra" element={<Extra />} />
         </Routes>
         <Footer />
       </BrowserRouter>

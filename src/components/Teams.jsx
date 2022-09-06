@@ -3,10 +3,11 @@ export default function Main() {
   return (
     <section class="text-gray-600 body-font">
       <div class="container px-5 mx-auto">
-        <div class="text-center mb-20">
-          {/* <h2 class="text-center mt-3">
-               Four Pillars of Code Club 
-            </h2> */}
+        <div class="text-center mb-16">
+          <div class="mx-auto w-full text-center text-[#1A237E] md:w-3/4">
+            <h2 class="block antialiased tracking-normal font-sans text-4xl leading-[1.3] text-inherit mb-4 font-black">About Us</h2>
+            <p class="block antialiased font-sans font-light text-inherit text-lg opacity-60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem perspiciatis facilis, eum dicta hic atque pariatur dolorum beatae, veniam unde harum culpa commodi repudiandae et omnis qui possimus debitis recusandae.</p>
+          </div>
           <div class="flex mt-6 justify-center">
             <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
           </div>

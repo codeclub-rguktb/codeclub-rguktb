@@ -1,77 +1,39 @@
-<div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-        <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-        ></button>
-        <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-        ></button>
-        <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-        ></button>
+{/* <h1 className="mt-2 mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
+          About
+        </h1>
+        <div className="text-center">
+          <p className="text-lg">We are a small passionate team.</p>
+        </div>
+
+        <div className="grid grid-cols-3 gap-5 mt-6 mb-16 md:mt-16 md:mb-32 md:gap-16">
+          {authors.slice(0, 3).map(author => {
+            const { width, height, ...imgprops } = GetImage(
+              author?.image
+            );
+            return (
+              <div
+                key={author._id}
+                className="relative overflow-hidden rounded-md aspect-square odd:translate-y-10 odd:md:translate-y-16">
+                <Image
+                  {...imgprops}
+                  alt={author.name || " "}
+                  layout="fill"
+                  objectFit="cover"
+                  sizes="(max-width: 320px) 100vw, 320px"
+                />
+              </div>
+            );
+          })}
+        </div>
+ */}
+
+
+import React from 'react'
+
+export default function dlt() {
+  return (
+    <div>
+
     </div>
-    <div class="carousel-inner relative w-full overflow-hidden">
-        <div class="carousel-item active relative float-left w-full">
-            <img
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                class="block w-full"
-                alt="..."
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-            </div>
-        </div>
-        <div class="carousel-item relative float-left w-full">
-            <img
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-                class="block w-full"
-                alt="..."
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-            </div>
-        </div>
-        <div class="carousel-item relative float-left w-full">
-            <img
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-                class="block w-full"
-                alt="..."
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-            </div>
-        </div>
-    </div>
-    <button
-        class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-    >
-        <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-        class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-    >
-        <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+  )
+}

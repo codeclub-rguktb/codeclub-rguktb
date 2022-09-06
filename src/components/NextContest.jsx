@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 function NextContest() {
     return (
         <>
@@ -19,9 +20,9 @@ function NextContest() {
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                 >
-                    <a href="">
+                    <Link to="/contest">
                         Participate
-                    </a>
+                    </Link>
                 </button>
             </div>
         </>
