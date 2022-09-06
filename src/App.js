@@ -6,8 +6,7 @@ import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
 import GAR from "./pages/GuidanceAndResourses"
 import COT from "./pages/ContestOrganising"
-
-import Extra from "./pages/Extra";
+import Error from "./pages/404";
 
 const App = () => {
   return (
@@ -20,7 +19,7 @@ const App = () => {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/guidance" element={<GAR />} />
           <Route path="/contest" element={<COT />} />
-          <Route path="/extra" element={<Extra />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
