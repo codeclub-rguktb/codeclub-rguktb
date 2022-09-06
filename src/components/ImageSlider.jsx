@@ -31,7 +31,7 @@ export default function SimpleSlider() {
         slidesToScroll: 1,
         lazyLoad: true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
     };
     return (
         <div className='container mr-auto ml-auto mt-4 rounded-lg'>
@@ -44,8 +44,9 @@ export default function SimpleSlider() {
                                 <div class="carousel-item active relative float-left w-full rounded-lg">
                                     <img
                                         src={item.src}
-                                        class="block w-full rounded-lg"
+                                        class="block w-full rounded-lg" style={{ height: '500px' }}
                                         alt={item.alt}
+
                                     />
                                     <div class="carousel-caption hidden md:block absolute text-center">
                                         <h5 class="text-xl">First slide label</h5>

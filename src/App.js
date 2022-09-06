@@ -1,14 +1,10 @@
-import React, { useState } from "react";
-import Main from "./components/Teams";
-// import "./styles/App.css";
+import React from "react";
 import Home from "../src/pages/Home"
 import Navbar from "./components/Navbar"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
 import GAR from "./pages/GuidanceAndResourses"
-
-import SL from "./pages/Slider"
 
 const App = () => {
   return (

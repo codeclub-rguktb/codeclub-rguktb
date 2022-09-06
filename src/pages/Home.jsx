@@ -6,7 +6,7 @@ import NextContest from '../components/NextContest';
 
 export default function Home() {
     return (
-        <div className='container max-w-5xl mr-auto ml-auto'>
+        <div className='container max-w-8xl mx-auto'>
             <ImageSlider />
             <NextContest />
             <Teams />
