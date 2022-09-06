@@ -1,29 +1,25 @@
-import React from 'react'
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-
+import React from 'react'
 import Image from "../Images/ss.png";
+const ImageSlider = () => {
 
-export default function SimpleSlider() {
+    const images = [{
+        id: 1,
+        src: Image,
+    },
+    {
+        id: 2,
+        src: Image,
+    },
+    {
+        id: 3,
+        src: Image,
+    }
+    ];
 
-    const images = [
-        {
-            id: 1,
-            src: Image,
-            alt: 'Image 1'
-        },
-        {
-            id: 2,
-            src: Image,
-            alt: 'Image 1'
-        },
-        {
-            id: 3,
-            src: Image,
-            alt: 'Image 1'
-        },
-    ]
+
     const settings = {
         infinite: true,
         dots: true,
@@ -31,21 +27,20 @@ export default function SimpleSlider() {
         slidesToScroll: 1,
         lazyLoad: true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 1500,
     };
     return (
-        <div className='container mr-auto ml-auto mt-4 rounded-lg'>
-
-            <Slider {...settings}>
-                {
-                    images.map((item, index) => {
-                        return (
-                            <div key={index} className="rounded-lg">
+        <>
+            <div className="container mr-auto ml-auto mt-4 rounded-lg">
+                <Slider {...settings}>
+                    {images.map((item, index) => (
+                        <div>
+                            <div className="rounded-lg">
                                 <div class="carousel-item active relative float-left w-full rounded-lg">
                                     <img
-                                        src={item.src}
+                                        src={Image}
                                         class="block w-full rounded-lg"
-                                        alt={item.alt}
+                                        alt="..."
                                     />
                                     <div class="carousel-caption hidden md:block absolute text-center">
                                         <h5 class="text-xl">First slide label</h5>
@@ -53,11 +48,12 @@ export default function SimpleSlider() {
                                     </div>
                                 </div>
                             </div>
-                        )
-                    })
-                }
-            </Slider>
-        </div>
+                        </div>
 
-    );
+                    ))}
+                </Slider>
+            </div>
+        </>
+    )
 }
+export default ImageSlider;

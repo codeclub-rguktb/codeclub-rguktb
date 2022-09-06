@@ -2,7 +2,7 @@ import React from 'react'
 function NextContest() {
     return (
         <>
-            <div class="p-6 mt-16  mr-auto ml-auto shadow-lg shadow-black-500/40 border-gray-900 rounded-lg bg-white text-gray-700">
+            <div class="p-6 mt-16  mr-auto ml-auto drop-shadow-lg border-gray-900 rounded-lg bg-white text-gray-700">
                 <h2 class="font-semibold text-3xl mb-5">Next Contest !!</h2>
                 <p>
                     This is a simple hero unit, a simple jumbotron-style component for calling extra attention

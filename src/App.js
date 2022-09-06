@@ -8,6 +8,8 @@ import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
 import GAR from "./pages/GuidanceAndResourses"
 
+import SL from "./pages/Slider"
+
 const App = () => {
   return (
     <>
