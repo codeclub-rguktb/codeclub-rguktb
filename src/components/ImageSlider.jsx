@@ -31,7 +31,7 @@ export default function SimpleSlider() {
         slidesToScroll: 1,
         lazyLoad: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2500,
     };
     return (
         <div className='container mr-auto ml-auto mt-4 rounded-lg'>

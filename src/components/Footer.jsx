@@ -29,7 +29,11 @@ export default function Footer() {
                         </Link>
                     </div>
                 </nav>
+
                 <SocialMedia />
+                <div className='mx-auto w-full flex justify-center' >
+                    <span className='text-xl font-bold ml-4 text-black bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>RAJIV GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES - BASAR</span>
+                </div>
                 <p class="mt-8 text-base leading-6 text-center text-gray-400">
                     © 2022 CODE CLUB - RGUKTB. All rights reserved.
                 </p>

@@ -1,4 +1,12 @@
 import Image from "../Images/ss.png";
+import Tech from "../Images/tech.jpg";
+import GAR from "../Images/gar.jpg";
+import CPP from "../Images/cp.jpg";
+import CodingGIF from "../Images/coding.gif";
+// import AnnounceGIF from "../Images/announce.gif";
+import GuidanceGIF from "../Images/guidance.gif";
+import ResourcesGIF from "../Images/resources.gif";
+
 export default function Main() {
   return (
     <section class="text-gray-600 body-font">
@@ -18,7 +26,7 @@ export default function Main() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src={Image}
+                    src={GuidanceGIF}
                   ></img>
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-white">
@@ -75,7 +83,7 @@ export default function Main() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src={Image}
+                    src={ResourcesGIF}
                   ></img>
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-white">
@@ -132,7 +140,7 @@ export default function Main() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src={Image}
+                    src={CodingGIF}
                   ></img>
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-white">
@@ -189,7 +197,7 @@ export default function Main() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src={Image}
+                    src={GuidanceGIF}
                   ></img>
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-white">
