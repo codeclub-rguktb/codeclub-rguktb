@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dad915ac.css",
+    "main.js": "/static/js/main.a91b4d69.js",
+    "static/media/image2.jpg": "/static/media/image2.036b9f610d8536e0c627.jpg",
+    "static/media/image4.jpg": "/static/media/image4.de75e7c15135b3390400.jpg",
+    "static/media/image3.jpg": "/static/media/image3.26cb540ede2b7051b6f2.jpg",
+    "static/media/coding.gif": "/static/media/coding.764fb57dada7d2f12519.gif",
+    "static/media/announcement.gif": "/static/media/announcement.2bd5bb3885a622db1a36.gif",
+    "static/media/resources.gif": "/static/media/resources.7e4611ad51e03edf63a7.gif",
+    "static/media/compete.gif": "/static/media/compete.e313d293f6fcb925ed7d.gif",
+    "static/media/guidance.gif": "/static/media/guidance.cff689e1d20114dca253.gif",
+    "static/media/image-02.jpeg": "/static/media/image-02.080bc240663e81066098.jpeg",
+    "static/media/image-04.jpeg": "/static/media/image-04.717740bc3e9c6dd698f3.jpeg",
+    "static/media/image-01.jpeg": "/static/media/image-01.28fcb824e49a5d9f0b18.jpeg",
+    "static/media/image-03.jpeg": "/static/media/image-03.e4f54f702c7d0a214e58.jpeg",
+    "static/media/image-09.jpeg": "/static/media/image-09.92bbac07e5e433ce4104.jpeg",
+    "static/media/image-05.jpeg": "/static/media/image-05.9faf2dcfaaff0043b5a1.jpeg",
+    "static/media/image-07.jpeg": "/static/media/image-07.5877707990a66637ee4c.jpeg",
+    "static/media/image-06.jpeg": "/static/media/image-06.695553036f8ef630fb70.jpeg",
+    "static/media/ss.png": "/static/media/ss.340e0c81cc0e4ad90683.png",
+    "static/media/image-08.jpeg": "/static/media/image-08.c940d7c147d7d78c23a1.jpeg",
+    "static/media/image1.jpeg": "/static/media/image1.56128eb15b4dbe1252b7.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.dad915ac.css.map": "/static/css/main.dad915ac.css.map",
+    "main.a91b4d69.js.map": "/static/js/main.a91b4d69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dad915ac.css",
+    "static/js/main.a91b4d69.js"
+  ]
+}
