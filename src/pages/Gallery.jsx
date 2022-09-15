@@ -1,5 +1,13 @@
 import React from 'react'
-
+import Image1 from "../Images/cc/image-01.jpeg";
+import Image2 from "../Images/cc/image-02.jpeg";
+import Image3 from "../Images/cc/image-03.jpeg";
+import Image4 from "../Images/cc/image-04.jpeg";
+import Image5 from "../Images/cc/image-05.jpeg";
+import Image6 from "../Images/cc/image-06.jpeg";
+import Image7 from "../Images/cc/image-07.jpeg";
+import Image8 from "../Images/cc/image-08.jpeg";
+import Image9 from "../Images/cc/image-09.jpeg";
 export default function Gallery() {
     return (
         <div>
@@ -9,73 +17,55 @@ export default function Gallery() {
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+                                    src={Image1} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+                                    src={Image2} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+                                    src={Image3} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+                                    src={Image4} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp" />
+                                    src={Image5} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                                    src={Image6} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                                    src={Image7} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                                    src={Image8} />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap w-1/1 md:w-1/3">
-                            <div class="w-full p-1 md:p-2">
-                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap w-1/1 md:w-1/3">
-                            <div class="w-full p-1 md:p-2">
-                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap  w-1/1 md:w-1/3">
-                            <div class="w-full p-1 md:p-2">
-                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                                    src={Image9} />
                             </div>
                         </div>
                     </div>

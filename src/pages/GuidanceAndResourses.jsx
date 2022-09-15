@@ -35,7 +35,7 @@ function HeroHome() {
                         <div className="max-w-3xl mx-auto">
                             <p className="text-4xl font-extrabold leading-tighter tracking-tighter md:text-5xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Join the Discord</span></p>
                             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                                <a href="https://discord.gg/8VamEwvv" target="blank" className='flex mx-auto w-max gap-4'>
+                                <a href="https://discord.gg/r3mYNP3S" target="blank" className='flex mx-auto w-max gap-4'>
                                     <Button>
                                         <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" style={{ backgroundColor: '#7289da' }}>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" className="w-4 h-4">
