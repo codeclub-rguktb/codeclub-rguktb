@@ -12,7 +12,6 @@ export default function CTA() {
             </div><div class="mt-4 overflow-hidden rounded-lg bg-white ring-1 ring-slate-900/5">
                 <img class="h-auto w-full sm:hidden" loading="lazy" src={Image} width="375" height="430" />
                 <img class="hidden h-auto w-full sm:block" loading="lazy" src={Image} width="1280" height="386" />
-
             </div>
         </section>
     </div>

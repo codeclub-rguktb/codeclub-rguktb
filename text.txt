@@ -1,0 +1,44 @@
+MAIN PARAGRAPH
+Hey! CODECLUBERS Welcome to the ONE-stop destination for all the contests, hackathons, workshops, and guidance.
+ We guarantee you a bright future in the corporate world.
+We provide the best competitive programming contests every week and 
+ the best roadmaps for all the booming and latest trends in all streams of CSE.
+
+
+NEXT CONTEST!!
+Be held for the upcoming competitions of CP on 00-00-0000
+The contest  contains problem statements relating to 
+LinkedList,BST,DSA,DAA.......
+
+Click the below button to participate in the upcoming contest.
+
+JOIN OUR COMMUNITY
+Now, this is how you reach us, the best community of coders and enthusiasts among us.
+
+
+ABOUT US
+We, the RGUKTAINS, empower the young and aspiring minds of RGUKTB to develop a passion for technology and inculcate a coding culture that is diverse, welcoming, and inclusive for all students.
+
+UPSKILL, INCULTATE, INNOVATE.
+CREATE, INNOVATE, UPSKILL.
+
+CODE YOUR HEART OUT.
+TALK IS CHEAP. SHOW ME THE CODE.
+
+
+CONTEST ORGANISING TEAM
+We are the organizers of CODE CLUB.
+We organize the best contests, competitions, and hackathons on CP.
+
+GUIDANCE AND RESOURCES TEAM
+We are the Guidance of CODE CLUB/RGUKTB.
+We provide the latest updates regarding new technologies and the best resources to learn them through a perfect road map.
+
+TECHNICAL TEAM
+We are the backend of CODE CLUB.
+ We take care of all the technical stuff and are here to help you with all technical issues.
+
+PUBLICISING TEAM
+We are the front end of the CODE CLUB. 
+We provide you with all the info about contests or guidance related to CSE. 
+We organize JAMs and group discussions and provide mentorship to all the students.

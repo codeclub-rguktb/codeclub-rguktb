@@ -4,23 +4,24 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 import Image from "../Images/ss.png";
+import Image1 from "../Images/slider/image1.jpeg";
 
 export default function SimpleSlider() {
 
     const images = [
         {
             id: 1,
-            src: Image,
+            src: Image1,
             alt: 'Image 1'
         },
         {
             id: 2,
-            src: Image,
+            src: Image1,
             alt: 'Image 1'
         },
         {
             id: 3,
-            src: Image,
+            src: Image1,
             alt: 'Image 1'
         },
     ]

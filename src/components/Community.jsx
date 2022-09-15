@@ -6,7 +6,7 @@ export default function Community() {
             <section class="relative my-8 z-30 pb-20 md:pt-12">
                 <div class="mx-auto mb-20 w-full text-center text-[#1A237E] md:w-3/4">
                     <h2 class="block antialiased tracking-normal font-sans text-4xl leading-[1.3] text-inherit mb-4 font-black">Join Our Community</h2>
-                    <p class="block antialiased font-sans font-light text-inherit text-lg opacity-60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem perspiciatis facilis, eum dicta hic atque pariatur dolorum beatae, veniam unde harum culpa commodi repudiandae et omnis qui possimus debitis recusandae.</p>
+                    <p class="block antialiased font-sans font-light text-inherit text-lg opacity-60">Now, this is how you reach us, the best community of coders and enthusiasts among us.</p>
                 </div>
                 <div class="mt-22 flex flex-wrap items-center">
                     <div class="w-full px-4 md:w-1/3">

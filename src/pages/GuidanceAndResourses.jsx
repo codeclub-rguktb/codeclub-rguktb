@@ -47,7 +47,7 @@ function HeroHome() {
                                 </a>
 
                             </div>
-                            <p className="text-xl text-gray-600 mt-8 tracking-wide" data-aos="zoom-y-out" data-aos-delay="150">autem voluptatum sed eaque accusantium tenetur, deleniti molestiae quam nihil aspernatur officia, iusto libero blanditiis molestias cum. Voluptas quibusdam distinctio dolor ab quo a tempora, reprehenderit quisquam officia!</p>
+                            {/* <p className="text-xl text-gray-600 mt-8 tracking-wide" data-aos="zoom-y-out" data-aos-delay="150">autem voluptatum sed eaque accusantium tenetur, deleniti molestiae quam nihil aspernatur officia, iusto libero blanditiis molestias cum. Voluptas quibusdam distinctio dolor ab quo a tempora, reprehenderit quisquam officia!</p> */}
                         </div>
                     </div>
 

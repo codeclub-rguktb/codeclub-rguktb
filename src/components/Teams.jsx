@@ -1,11 +1,8 @@
-import Image from "../Images/ss.png";
-import Tech from "../Images/tech.jpg";
-import GAR from "../Images/gar.jpg";
-import CPP from "../Images/cp.jpg";
 import CodingGIF from "../Images/coding.gif";
-// import AnnounceGIF from "../Images/announce.gif";
+import ConestGIF from "../Images/compete.gif";
 import GuidanceGIF from "../Images/guidance.gif";
 import ResourcesGIF from "../Images/resources.gif";
+import AnnounceGIF from "../Images/announcement.gif";
 
 export default function Main() {
   return (
@@ -14,7 +11,9 @@ export default function Main() {
         <div class="text-center mb-16">
           <div class="mx-auto w-full text-center text-[#1A237E] md:w-3/4">
             <h2 class="block antialiased tracking-normal font-sans text-4xl leading-[1.3] text-inherit mb-4 font-black">About Us</h2>
-            <p class="block antialiased font-sans font-light text-inherit text-lg opacity-60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem perspiciatis facilis, eum dicta hic atque pariatur dolorum beatae, veniam unde harum culpa commodi repudiandae et omnis qui possimus debitis recusandae.</p>
+            <p class="block antialiased font-sans font-light text-inherit text-lg opacity-60">
+              We, the RGUKTAINS, empower the young and aspiring minds of RGUKTB to develop a passion for technology and inculcate a coding culture that is diverse, welcoming, and inclusive for all students.
+            </p>
           </div>
           <div class="flex mt-6 justify-center">
             <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
@@ -26,7 +25,7 @@ export default function Main() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src={GuidanceGIF}
+                    src={ConestGIF}
                   ></img>
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-white">
@@ -34,8 +33,9 @@ export default function Main() {
                     </h2>
                     <h3 class="text-gray-500 mb-3">Contest Organising Team</h3>
                     <p class="mb-4">
-                      Chris is part of our front-end team providing amazing
-                      websites.
+                      We are the organizers of CODE CLUB.
+                      We organize the best contests, competitions, and hackathons on CP.
+
                     </p>
                     <span class="inline-flex">
                       <a class="text-gray-500">
@@ -91,8 +91,8 @@ export default function Main() {
                     </h2>
                     <h3 class="text-gray-500 mb-3">Guidance and Resources Team</h3>
                     <p class="mb-4">
-                      Chris is part of our front-end team providing amazing
-                      websites.
+                      We are the Guidance of CODE CLUB/RGUKTB.
+                      We provide the latest updates regarding new technologies and the best resources to learn them through a perfect road map.
                     </p>
                     <span class="inline-flex">
                       <a class="text-gray-500">
@@ -148,8 +148,8 @@ export default function Main() {
                     </h2>
                     <h3 class="text-gray-500 mb-3">Technical Team</h3>
                     <p class="mb-4">
-                      Chris is part of our front-end team providing amazing
-                      websites.
+                      We are the backend of CODE CLUB.
+                      We take care of all the technical stuff and are here to help you with all technical issues.
                     </p>
                     <span class="inline-flex">
                       <a class="text-gray-500">
@@ -197,7 +197,7 @@ export default function Main() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src={GuidanceGIF}
+                    src={AnnounceGIF}
                   ></img>
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-white">
@@ -205,8 +205,8 @@ export default function Main() {
                     </h2>
                     <h3 class="text-gray-500 mb-3">Publising Team</h3>
                     <p class="mb-4">
-                      Chris is part of our front-end team providing amazing
-                      websites.
+                      We are the front end of the CODE CLUB.
+                      We provide you with all the info about contests or guidance related to CSE.
                     </p>
                     <span class="inline-flex">
                       <a class="text-gray-500">
