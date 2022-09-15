@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../Images/ss.png"
+import Image from "../Images/mission.jpg"
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 export default function PageSection() {
     const words = ['CODECLUB', 'CODECLUB-RGUKTB'];
