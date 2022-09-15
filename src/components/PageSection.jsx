@@ -22,6 +22,7 @@ export default function PageSection() {
                         <p class="mt-8 text-gray-500">Conducting weekly contests, hackathons and workshops.</p>
                         <p class="mt-8 text-gray-500">Introducing real world project statements.</p>
                         <p class="mt-8 text-gray-500">Developing Personality through group discussions and mentorship.</p>
+                        <p class="mt-8 text-gray-500">Learning to Code is learning to Create and Innovate.</p>
                     </div>
                 </div>
             </div>

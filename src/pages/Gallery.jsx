@@ -8,6 +8,9 @@ import Image6 from "../Images/cc/image-06.jpeg";
 import Image7 from "../Images/cc/image-07.jpeg";
 import Image8 from "../Images/cc/image-08.jpeg";
 import Image9 from "../Images/cc/image-09.jpeg";
+import Image10 from "../Images/cc/image-10.jpeg";
+import Image11 from "../Images/cc/image-11.jpeg";
+import Image12 from "../Images/cc/image-12.jpeg";
 export default function Gallery() {
     return (
         <div>
@@ -17,9 +20,40 @@ export default function Gallery() {
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                    src={Image10} />
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap w-1/1 md:w-1/3">
+                            <div class="w-full p-1 md:p-2">
+                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                    src={Image11} />
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap w-1/1 md:w-1/3">
+                            <div class="w-full p-1 md:p-2">
+                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                    src={Image12} />
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap w-1/1 md:w-1/3">
+                            <div class="w-full p-1 md:p-2">
+                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
                                     src={Image1} />
                             </div>
                         </div>
+                        <div class="flex flex-wrap w-1/1 md:w-1/3">
+                            <div class="w-full p-1 md:p-2">
+                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                    src={Image8} />
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap w-1/1 md:w-1/3">
+                            <div class="w-full p-1 md:p-2">
+                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                    src={Image9} />
+                            </div>
+                        </div>
+
                         <div class="flex flex-wrap w-1/1 md:w-1/3">
                             <div class="w-full p-1 md:p-2">
                                 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
@@ -56,18 +90,8 @@ export default function Gallery() {
                                     src={Image7} />
                             </div>
                         </div>
-                        <div class="flex flex-wrap w-1/1 md:w-1/3">
-                            <div class="w-full p-1 md:p-2">
-                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src={Image8} />
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap w-1/1 md:w-1/3">
-                            <div class="w-full p-1 md:p-2">
-                                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                    src={Image9} />
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
             </section>

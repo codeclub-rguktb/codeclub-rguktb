@@ -11,11 +11,11 @@ import Image4 from "../Images/slider/image4.jpg";
 export default function SimpleSlider() {
 
     const images = [
-        {
-            id: 1,
-            src: Image1,
-            alt: 'Image 1'
-        },
+        // {
+        //     id: 1,
+        //     src: Image1,
+        //     alt: 'Image 1'
+        // },
         {
             id: 2,
             src: Image2,
@@ -49,10 +49,10 @@ export default function SimpleSlider() {
                     images.map((item, index) => {
                         return (
                             <div key={index} className="rounded-lg">
-                                <div class="carousel-item active relative float-left w-full rounded-lg">
+                                <div class="carousel-item active bg-cover relative float-left w-full rounded-lg">
                                     <img
                                         src={item.src}
-                                        class="block w-full rounded-lg" style={{ height: '550px' }}
+                                        class="block w-full rounded-lg bg-cover" style={{ maxHeight: '550px' }}
                                         alt={item.alt}
 
                                     />
