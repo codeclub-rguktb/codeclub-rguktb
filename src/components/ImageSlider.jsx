@@ -3,19 +3,19 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import Image1 from "../Images/slider/image1.jpeg";
-import Image2 from "../Images/slider/image2.jpg";
-import Image3 from "../Images/slider/image3.jpg";
-import Image4 from "../Images/slider/image4.jpg";
+import Image1 from "../Images/slider/image-01.jpg";
+import Image2 from "../Images/slider/image-02.jpg";
+import Image3 from "../Images/slider/image-03.jpg";
+import Image4 from "../Images/slider/image-04.jpg";
 
 export default function SimpleSlider() {
 
     const images = [
-        // {
-        //     id: 1,
-        //     src: Image1,
-        //     alt: 'Image 1'
-        // },
+        {
+            id: 1,
+            src: Image4,
+            alt: 'Image 1'
+        },
         {
             id: 2,
             src: Image2,
@@ -28,7 +28,7 @@ export default function SimpleSlider() {
         },
         {
             id: 3,
-            src: Image4,
+            src: Image1,
             alt: 'Image 4'
         },
     ]
@@ -52,7 +52,7 @@ export default function SimpleSlider() {
                                 <div class="carousel-item active bg-cover relative float-left w-full rounded-lg">
                                     <img
                                         src={item.src}
-                                        class="block w-full rounded-lg bg-cover" style={{ maxHeight: '550px' }}
+                                        class="block w-full rounded-lg bg-cover"
                                         alt={item.alt}
 
                                     />
@@ -70,3 +70,5 @@ export default function SimpleSlider() {
 
     );
 }
+
+// style = {{maxHeight : '550px}}
