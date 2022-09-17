@@ -7,10 +7,16 @@ import Image1 from "../Images/slider/image-01.jpg";
 import Image2 from "../Images/slider/image-02.jpg";
 import Image3 from "../Images/slider/image-03.jpg";
 import Image4 from "../Images/slider/image-04.jpg";
+import Image0 from "../Images/slider/image.jpg";
 
 export default function SimpleSlider() {
 
     const images = [
+        {
+            id: 1,
+            src: Image0,
+            alt: 'Image 0'
+        },
         {
             id: 1,
             src: Image4,
